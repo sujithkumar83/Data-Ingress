@@ -1,52 +1,6 @@
 # Apache Nifi
 
-## Table of Contents
-
-- [Learning NiFi](#learning-nifi)
-- [Blogs and Presentations](#blogs-and-presentations)
-    - [Blogs](#blogs)
-    - [Specific Topics](#specific-topics)
-    - [Slides](#slides)
-    - [Videos](#videos)
-    - [Mailing List Best Of](#mailing-list-best-of)
-- [Templates and Examples](#templates-and-examples)
-- [Processors and Bundles](#processors-and-bundles)
-- [Deployment](#deployment)
-    - [Data Flow Deployment](#data-flow-deployment)
-    - [Administration](#administration)
-    - [Configuration Management](#configuration-management)
-    - [Packages](#packages)
-    - [Dockerfiles](#dockerfiles)
-    - [Vagrantfiles](#vagrantfiles)
-- [Misc](#misc)
-- [License](#license)
-
-## Learning NiFi
-
-* [xmlking/nifi-examples](https://github.com/xmlking/nifi-examples) - Apache NiFi example flows
-* [simonellistonball/masterclass-hdf](https://github.com/simonellistonball/masterclass-hdf) - Various NiFi labs and class
-* [seanorama/masterclass](https://github.com/seanorama/masterclass) - Platform setup for nifi masterclass and other Hadoop workshops
-* [aperepel/nifi-workshop](https://github.com/aperepel/nifi-workshop) - A complete custom processor project, for your reference
-* [pcgrenier/nifi-examples](https://github.com/pcgrenier/nifi-examples) - Apache Nifi Examples by http://www.nifi.rocks
-* [bbende/nifi-example-bundles](https://github.com/bbende/nifi-example-bundles) - Example processor bundles for Apache NiFi
-* [abajwa-hw/nifi-network-processor](https://github.com/abajwa-hw/nifi-network-processor) - Sample custom Nifi processor to process tcpdump
-* [bbende/nifi-streaming-examples](https://github.com/bbende/nifi-streaming-examples) - Collection of examples integrating NiFi with stream process frameworks
-* [DhruvKumar/stocks-dashboard-lab](https://github.com/DhruvKumar/stocks-dashboard-lab) - This lab teaches you how to create a realtime dashboard of stock prices
-* [Getting Started With Apache NiFi and Hortonworks HDF](https://dzone.com/articles/getting-started-with-apache-nifi-and-hdf)
-
-## Blogs and Presentations
-
-### Blogs
-
-* [Apache NiFi Blog](https://blogs.apache.org/nifi/)
-* [Bryan Bende (Apache NiFi PMC)](https://bryanbende.com/)
-* [Fun with Apache NiFi (Apache NiFi PMC)](http://funnifi.blogspot.com)
-* [Andy LoPresto (Apache NiFi PMC)](https://alopresto.github.io/)
-* [Koji Kawamura (Apache NiFi PMC)](http://ijokarumawak.github.io/blog/)
-* [Pierre Villard (Apache NiFI PMC)](https://pierrevillard.com/)
-* [nifi.rocks](http://www.nifi.rocks)
-* [Richard's Tech Notes](https://richardstechnotes.wordpress.com/category/apache-nifi/)
-* [Dataflow Developer](http://dataflowdeveloper.com)
+Mainly curated from Awesome Nifi repo by jfrazeeom 
 
 ### Specific Topics
 
@@ -87,25 +41,7 @@
 * [Integrating NiFi and Flink](http://www.slideshare.net/BryanBende/integrating-nifi-and-flink)
 * [Data ingestion and distribution with apache NiFi](http://www.slideshare.net/LevBrailovskiy/data-ingestion-and-distribution-with-apache-nifi)
 
-### Videos
 
-* [OSCON 2015 : Beyond messaging - Enterprise Dataflow with Apache NiFi](https://www.youtube.com/watch?v=sQCgtCoZyFQ)
-* [Hortonworks DataFlow powered by Apache NiFi](https://www.youtube.com/watch?v=fO-xOrWBZJU)
-* [How to navigate and build a dataflow in Apache Nifi](https://www.youtube.com/watch?v=FgTGAWLC170)
-* [IoT-Processor for #ApacheNiFi in action. Visualization of Tweets about presidential candidates. #AWSIoT #RaspberryPi](https://twitter.com/KayLerch/status/721455415456882689)
-
-### Mailing List Best Of
-
-* [Re: Persistence of intermediary data in NiFi ?](http://mail-archives.apache.org/mod_mbox/nifi-users/201603.mbox/%3cCALJK9a6t5+B6S0MCCyOOs7hds_4dfnwj-6PjxFR6kXkdp1D3fg@mail.gmail.com%3e)
-* [Re: Need help understanding backpressure](http://mail-archives.apache.org/mod_mbox/nifi-users/201604.mbox/%3cBLU436-SMTP24995D5F6EDF5985AADFE23CE680@phx.gbl%3e)
-
-## Templates and Examples
-
-* [hortonworks-gallery/nifi-templates](https://github.com/hortonworks-gallery/nifi-templates) - A collection of templates for use with Apache NiFi
-* [bikash/nifiIoT](https://github.com/bikash/nifiIoT) - Data Tracking using Apache NiFi in IoT, IoE
-* [BatchIQ/nifi-executescript-samples](https://github.com/BatchIQ/nifi-executescript-samples) - Sample scripts for use with Apache NiFi's ExecuteScript processor
-* [ijokarumawak/nifi-deploy-process-group](https://github.com/ijokarumawak/nifi-deploy-process-group) - Deploy ProcessGroup into your LIVE NiFi data-flow
-* [tbilou/flickr-nifi](https://github.com/tbilou/flickr-nifi) - Using Nifi to easily fetch all photo data from Flickr
 
 ## Processors and Bundles
 
@@ -199,21 +135,6 @@
 * [aperepel/docker-nifi](https://github.com/aperepel/docker-nifi)
 * [ijokarumawak/docker-compose-nifi-cluster](https://github.com/ijokarumawak/docker-compose-nifi-cluster)
 
-### Vagrantfiles
 
-* [minyk/nifi-sandbox](https://github.com/minyk/nifi-sandbox)
-
-## Misc
-
-* [mattyb149/nifi-client](https://github.com/mattyb149/nifi-client) - A NiFi client library for JVM languages
-* [sponiro/gradle-nar-plugin](https://github.com/sponiro/gradle-nar-plugin) - A gradle plugin to create nar files for Apache nifi
-* [SebastianCarroll/nifi-api](https://github.com/SebastianCarroll/nifi-api) - A ruby wrapper for the nifi rest api
-* [jfrazee/nifi-processor-bundle-scala.g8](https://github.com/jfrazee/nifi-processor-bundle-scala.g8) - A giter8 template for generating a new Scala NiFi processor bundle
-* [jdye64/go-nifi](https://github.com/jdye64/go-nifi) - Golang implementation of NiFi Site-to-Site protocol
-* [SebastianCarroll/nifi-api](https://github.com/SebastianCarroll/nifi-api) - A ruby wrapper for the nifi rest api
-* [mattyb149/nifi-script-tester](https://github.com/mattyb149/nifi-script-tester) - A project to create a stub/mock environment for testing ExecuteScript processors
-* [bbende/apache-ranger-vagrant](https://github.com/bbende/apache-ranger-vagrant) - Deploys Apache Ranger in a Vagrant VM
-* [big-solutions/clj-nifi-bundle](https://github.com/big-solutions/clj-nifi-bundle) - A Boot template for clj-nifi projects
-* [big-solutions/clj-nifi](https://github.com/big-solutions/clj-nifi) - A Clojure library/DSL for Apache NiFi processors
 
 
