@@ -216,8 +216,4 @@
 * [big-solutions/clj-nifi-bundle](https://github.com/big-solutions/clj-nifi-bundle) - A Boot template for clj-nifi projects
 * [big-solutions/clj-nifi](https://github.com/big-solutions/clj-nifi) - A Clojure library/DSL for Apache NiFi processors
 
-## License
-
-Copyright (c) 2017 Joey Frazee. awesome-nifi is licensed under the [Apache License 2.0](LICENSE).
-
 
