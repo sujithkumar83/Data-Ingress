@@ -1,7 +1,5 @@
 # Apache Nifi
 
-# Copied from Awesome Nifi repo by jfrazee
-
 ## Table of Contents
 
 - [Learning NiFi](#learning-nifi)
